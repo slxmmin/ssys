@@ -185,46 +185,146 @@ body {
       color: white;
   }
   
-  
-     button:hover {
-      animation: shake3856 0.6s linear infinite both;
-     }
-     
-     @keyframes shake3856 {
-      0% {
-       -webkit-transform: translate(0);
-       transform: translate(0);
-      }
-     
-      20% {
-       -webkit-transform: translate(-2px, 2px);
-       transform: translate(-2px, 2px);
-      }
-     
-      40% {
-       -webkit-transform: translate(-2px, -2px);
-       transform: translate(-2px, -2px);
-      }
-     
-      60% {
-       -webkit-transform: translate(2px, 2px);
-       transform: translate(2px, 2px);
-      }
-     
-      80% {
-       -webkit-transform: translate(2px, -2px);
-       transform: translate(2px, -2px);
-      }
-     
-      100% {
-       -webkit-transform: translate(0);
-       transform: translate(0);
-      }
-     }
+  .button1:hover {
+    color: white;
+  }
   
   
+  .button1 {
+    animation: shake3856 0.3s linear infinite both;
+   }
+   
+   @keyframes shake3856 {
+    0% {
+     -webkit-transform: translate(0);
+     transform: translate(0);
+    }
+   
+    20% {
+     -webkit-transform: translate(-2px, 2px);
+     transform: translate(-2px, 2px);
+    }
+   
+    40% {
+     -webkit-transform: translate(-2px, -2px);
+     transform: translate(-2px, -2px);
+    }
+   
+    60% {
+     -webkit-transform: translate(2px, 2px);
+     transform: translate(2px, 2px);
+    }
+   
+    80% {
+     -webkit-transform: translate(2px, -2px);
+     transform: translate(2px, -2px);
+    }
+   
+    100% {
+     -webkit-transform: translate(0);
+     transform: translate(0);
+    }
+  
+  }
+  
+  .main-button:hover {
+    animation: shake3856 0.6s linear infinite both;
+   }
+   
+   @keyframes shake3856 {
+    0% {
+     -webkit-transform: translate(0);
+     transform: translate(0);
+    }
+   
+    20% {
+     -webkit-transform: translate(-2px, 2px);
+     transform: translate(-2px, 2px);
+    }
+   
+    40% {
+     -webkit-transform: translate(-2px, -2px);
+     transform: translate(-2px, -2px);
+    }
+   
+    60% {
+     -webkit-transform: translate(2px, 2px);
+     transform: translate(2px, 2px);
+    }
+   
+    80% {
+     -webkit-transform: translate(2px, -2px);
+     transform: translate(2px, -2px);
+    }
+   
+    100% {
+     -webkit-transform: translate(0);
+     transform: translate(0);
+    }
+  
+  }
+  
+  #123:hover {
+    color: green;
+  }
+  
+  .button3 {
+    -webkit-animation: blink1 3s linear infinite;
+    animation: blink1 5s linear infinite;
+  }
+  @-webkit-keyframes blink1 {
+    0% { color: rgb(255, 255, 255); }
+    50% { color: rgba(255, 255, 255, 0); }
+    100% { color: rgb(255, 255, 255); }
+  }
+  @keyframes blink1 {
+    0% { color: rgb(255, 255, 255); }
+    50% { color: rgba(255, 255, 255, 0); }
+    100% { color: rgb(255, 255, 255); }
+  }
   
   
+  
+  .button2:hover {
+    color: white;
+  }
+  
+  .button2 {
+    animation: shake3856 0.6s linear infinite both;
+   }
+   
+   @keyframes shake3856 {
+    0% {
+     -webkit-transform: translate(0);
+     transform: translate(0);
+    }
+   
+    20% {
+     -webkit-transform: translate(-2px, 2px);
+     transform: translate(-2px, 2px);
+    }
+   
+    40% {
+     -webkit-transform: translate(-2px, -2px);
+     transform: translate(-2px, -2px);
+    }
+   
+    60% {
+     -webkit-transform: translate(2px, 2px);
+     transform: translate(2px, 2px);
+    }
+   
+    80% {
+     -webkit-transform: translate(2px, -2px);
+     transform: translate(2px, -2px);
+    }
+   
+    100% {
+     -webkit-transform: translate(0);
+     transform: translate(0);
+    }
+  
+  }
   
   
   .pauseButton {
