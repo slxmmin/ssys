@@ -3,10 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
     var playButton = document.getElementById('playButton');
     var stopButton = document.getElementById('stopButton');
     var pauseButton = document.getElementById('pauseButton');
-    var img = document.getElementById('img');
-    img.addEventListener('mouseover', function() {
-        backgroundMusic.play();
-    });
 
     playButton.addEventListener('click', function() {
         backgroundMusic.play();
@@ -19,6 +15,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
     pauseButton.addEventListener('click', function() {
         backgroundMusic.pause();
+    });
+
+    var img = document.getElementById('img');
+    img.addEventListener('mouseover', function() {
+        chipa.play();
+    });
+    img.addEventListener('mouseout', function() {
+        chipa.pause();
+        // chipa.currentTime = 0; // Reset playback to the beginning
     });
 });
 
