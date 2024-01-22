@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Jomhuria&display=swap" rel="stylesheet">
+    <title>Your Website Title</title>
+</head>
+<body>
+    <header>
+        <h1></h1>
+    </header>
+
+    <main>
+        <div>
+            <img id="img" height="350" src="image/ssys.svg" ></img>
+            <script>
+                var audio = document.getElementById("audio");
+                var img = document.getElementById("img");
+                
+                function play() {
+                  audio.play();
+                }
+                
+                function stop() {
+                  audio.pause();
+                }
+                
+                img.addEventListener('click', play);
+                img.addEventListener('mouseover', play);
+                img.addEventListener('mouseout', stop);
+              </script>
+        </div>
+        <div class="main1">
+        <button style="vertical-align:middle"><a class="main-button" href="www.google.com">Welcome to the club buddy</a></button>
+        <!-- <p><a id="blink2" href="www.google.com">Welcome to the club buddy</a></p> -->
+        </div>
+    </main>
+    <!-- <audio id="rick" loop>
+        <source src="music/rick.mp3" type="audio/mp3">
+    </audio> -->
+    </audio>
+    <audio id="backgroundMusic" loop>
+        <source src="music/chipa.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+    <div class="audio-buttons">
+    <button class="button" style="vertical-align:middle" id="playButton"><span>Play </span></button>
+    <button class="button" id="pauseButton"><span>Pause </span></button>
+    <!-- <button class="button" id="stopButton"><span>Stop </span></button> -->
+    </div>
+    <script src="script.js"></script>
+
+    <footer>
+    </footer>
+
+</body>
+</html>
