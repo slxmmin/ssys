@@ -17,14 +17,14 @@ document.addEventListener('DOMContentLoaded', function() {
         backgroundMusic.pause();
     });
 
-    var img = document.getElementById('img');
-    img.addEventListener('mouseover', function() {
-        chipa.play();
-    });
-    img.addEventListener('mouseout', function() {
-        chipa.pause();
-        // chipa.currentTime = 0; // Reset playback to the beginning
-    });
+    // var img = document.getElementById('img');
+    // img.addEventListener('mouseover', function() {
+    //     chipa.play();
+    // });
+    // img.addEventListener('mouseout', function() {
+    //     chipa.pause();
+    //     // chipa.currentTime = 0; // Reset playback to the beginning
+    // });
 });
 
 // document.addEventListener('DOMContentLoaded', function() {
