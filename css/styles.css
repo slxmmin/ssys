@@ -1,190 +1,245 @@
 body {
-background-color: #000; /* Black background color */
-color: #fff; /* White text color */
-font-family: Arial, sans-serif; /* Choose a suitable font */
-margin: 0; /* Remove default margin */
-padding: 0; /* Remove default padding */
-}
-
-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70vh;
-
-}
-
-.svg {
-    size: 10px;
-}
-
-object {
-    display: block;
-    margin: auto;
-    width: 187px;
-    height: 277px;
-    flex-shrink: 0;
-}
-
-/* p {
-    text-align: center;
-    height: 10vh;
-
-} */
-
-.main-button:hover {
-    animation: shake3856 0.3s linear infinite both;
-   }
-   
-   @keyframes shake3856 {
-    0% {
-     -webkit-transform: translate(0);
-     transform: translate(0);
+  background-color: #000; /* Black background color */
+  color: #fff; /* White text color */
+  font-family: Arial, sans-serif; /* Choose a suitable font */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  }
+  
+  div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 70vh;
+  
+  }
+  
+  .svg {
+      size: 10px;
+  }
+  
+  object {
+      display: block;
+      margin: auto;
+      width: 187px;
+      height: 277px;
+      flex-shrink: 0;
+  }
+  
+  /* p {
+      text-align: center;
+      height: 10vh;
+  
+  } */
+  
+  .main-button:hover {
+      animation: shake3856 0.6s linear infinite both;
+     }
+     
+     @keyframes shake3856 {
+      0% {
+       -webkit-transform: translate(0);
+       transform: translate(0);
+      }
+     
+      20% {
+       -webkit-transform: translate(-2px, 2px);
+       transform: translate(-2px, 2px);
+      }
+     
+      40% {
+       -webkit-transform: translate(-2px, -2px);
+       transform: translate(-2px, -2px);
+      }
+     
+      60% {
+       -webkit-transform: translate(2px, 2px);
+       transform: translate(2px, 2px);
+      }
+     
+      80% {
+       -webkit-transform: translate(2px, -2px);
+       transform: translate(2px, -2px);
+      }
+     
+      100% {
+       -webkit-transform: translate(0);
+       transform: translate(0);
+      }
+      
+     }
+  
+  
+  
+  .main-button {
+      -webkit-animation: blink2 1.5s linear infinite;
+      animation: blink2 1.5s linear infinite;
     }
-   
-    20% {
-     -webkit-transform: translate(-2px, 2px);
-     transform: translate(-2px, 2px);
+    @-webkit-keyframes blink2 {
+      100% { color: rgba(34, 34, 34, 0); }
     }
-   
-    40% {
-     -webkit-transform: translate(-2px, -2px);
-     transform: translate(-2px, -2px);
-    }
-   
-    60% {
-     -webkit-transform: translate(2px, 2px);
-     transform: translate(2px, 2px);
-    }
-   
-    80% {
-     -webkit-transform: translate(2px, -2px);
-     transform: translate(2px, -2px);
-    }
-   
-    100% {
-     -webkit-transform: translate(0);
-     transform: translate(0);
+    @keyframes blink2 {
+      100% { color: rgba(34, 34, 34, 0); }
     }
     
-   }
-
-.main-button {
-    -webkit-animation: blink2 1s linear infinite;
-    animation: blink2 0.8s linear infinite;
-  }
-  @-webkit-keyframes blink2 {
-    100% { color: rgba(34, 34, 34, 0); }
-  }
-  @keyframes blink2 {
-    100% { color: rgba(34, 34, 34, 0); }
-  }
-
-a {
-    /* font-family: 'Jolly Lodger', system-ui; */
-    font-family: 'Jomhuria', serif;
-    /* font-size: 500px; */
-    text-decoration: none;
-    /* display: block; */
-    margin: auto;
-    text-align: center;
-    justify-content: center; 
-    color: white;
-}
-
-#blink1 {
-    -webkit-animation: blink1 7s linear infinite;
-    animation: blink1 7s linear infinite;
-  }
-  @-webkit-keyframes blink1 {
-    0% { color: rgb(255, 255, 255); }
-    50% { color: rgba(255, 255, 255, 0); }
-    100% { color: rgb(255, 255, 255); }
-  }
-  @keyframes blink1 {
-    0% { color: rgb(255, 255, 255); }
-    50% { color: rgba(255, 255, 255, 0); }
-    100% { color: rgb(255, 255, 255); }
-  }
-
-  #blink2 {
-    -webkit-animation: blink2 1s linear infinite;
-    animation: blink2 1s linear infinite;
-  }
-  @-webkit-keyframes blink2 {
-    100% { color: rgba(34, 34, 34, 0); }
-  }
-  @keyframes blink2 {
-    100% { color: rgba(34, 34, 34, 0); }
-  }
-
-
   
-.audio-buttons {
-    justify-content: center;
-    /* align-items: center; */
-    /* display: block; */
-    /* margin: 0; /* Remove default margin */
-    /* padding: 0; */
-    /* height: 10vh; */
-    /* margin-left: auto; */
-    /* text-align: right; */
-    height: 10vh;
-}
-
-.main1 {
-    justify-content: center;
-    /* align-items: center; */
-    /* display: block; */
-    /* margin: 0; /* Remove default margin */
-    /* padding: 0; */
-    /* height: 10vh; */
-    /* margin-left: auto; */
-    /* text-align: right; */
-    height: 10vh;
-}
-
-.main-button {
-    font-family: 'Jomhuria', serif;
-    font-size: 100px;
-    text-decoration: none;
-    /* display: block; */
-    margin: auto;
-    text-align: center;
-    justify-content: center; 
-    color: white;
-}
-
-button {
-    border: none;
-    margin: 15px;
-    font-family: 'Jomhuria', serif;
-    border-radius: none;
-    background: none;
-    font-size: 35px;
-    color: #6e6e6e;
-    /* font-weight: 0; */
-
-   }
-
-  /* .button {
-    -webkit-animation: blink2 1s linear infinite;
-    animation: blink2 1s linear infinite;
+  a {
+      /* font-family: 'Jolly Lodger', system-ui; */
+      font-family: 'Jomhuria', serif;
+      /* font-size: 500px; */
+      text-decoration: none;
+      /* display: block; */
+      margin: auto;
+      text-align: center;
+      justify-content: center; 
+      color: white;
   }
-  @-webkit-keyframes blink2 {
-    100% { color: rgba(34, 34, 34, 0); }
+  
+  #blink1 {
+      -webkit-animation: blink1 7s linear infinite;
+      animation: blink1 7s linear infinite;
+    }
+    @-webkit-keyframes blink1 {
+      0% { color: rgb(255, 255, 255); }
+      50% { color: rgba(255, 255, 255, 0); }
+      100% { color: rgb(255, 255, 255); }
+    }
+    @keyframes blink1 {
+      0% { color: rgb(255, 255, 255); }
+      50% { color: rgba(255, 255, 255, 0); }
+      100% { color: rgb(255, 255, 255); }
+    }
+  
+    #blink2 {
+      -webkit-animation: blink2 1s linear infinite;
+      animation: blink2 1s linear infinite;
+    }
+    @-webkit-keyframes blink2 {
+      100% { color: rgba(34, 34, 34, 0); }
+    }
+    @keyframes blink2 {
+      100% { color: rgba(34, 34, 34, 0); }
+    }
+  
+  
+    
+  .audio-buttons {
+      justify-content: center;
+      /* align-items: center; */
+      /* display: block; */
+      /* margin: 0; /* Remove default margin */
+      /* padding: 0; */
+      /* height: 10vh; */
+      /* margin-left: auto; */
+      /* text-align: right; */
+      height: 10vh;
   }
-  @keyframes blink2 {
-    100% { color: rgba(34, 34, 34, 0); }
-  } */
-   
-.button:hover {
-    color: white;
-}
-
-
-   button:hover {
-    animation: shake3856 0.3s linear infinite both;
+  
+  .main1 {
+      justify-content: center;
+      /* align-items: center; */
+      /* display: block; */
+      /* margin: 0; /* Remove default margin */
+      /* padding: 0; */
+      /* height: 10vh; */
+      /* margin-left: auto; */
+      /* text-align: right; */
+      height: 10vh;
+  }
+  
+  .main-button {
+      font-family: 'Jomhuria', serif;
+      font-size: 100px;
+      text-decoration: none;
+      /* display: block; */
+      margin: auto;
+      text-align: center;
+      justify-content: center; 
+      color: white;
+  }
+  
+  button {
+      border: none;
+      margin: 15px;
+      font-family: 'Jomhuria', serif;
+      border-radius: none;
+      background: none;
+      font-size: 35px;
+      color: #6e6e6e;
+      /* font-weight: 0; */
+  
+     }
+  
+    /* .button {
+      -webkit-animation: blink2 1s linear infinite;
+      animation: blink2 1s linear infinite;
+    }
+    @-webkit-keyframes blink2 {
+      100% { color: rgba(34, 34, 34, 0); }
+    }
+    @keyframes blink2 {
+      100% { color: rgba(34, 34, 34, 0); }
+    } */
+     
+  .button:hover {
+      color: white;
+  }
+  
+  
+     button:hover {
+      animation: shake3856 0.6s linear infinite both;
+     }
+     
+     @keyframes shake3856 {
+      0% {
+       -webkit-transform: translate(0);
+       transform: translate(0);
+      }
+     
+      20% {
+       -webkit-transform: translate(-2px, 2px);
+       transform: translate(-2px, 2px);
+      }
+     
+      40% {
+       -webkit-transform: translate(-2px, -2px);
+       transform: translate(-2px, -2px);
+      }
+     
+      60% {
+       -webkit-transform: translate(2px, 2px);
+       transform: translate(2px, 2px);
+      }
+     
+      80% {
+       -webkit-transform: translate(2px, -2px);
+       transform: translate(2px, -2px);
+      }
+     
+      100% {
+       -webkit-transform: translate(0);
+       transform: translate(0);
+      }
+     }
+  
+  
+  
+  
+  
+  
+  .pauseButton {
+      height: 50px;
+      margin: 10px;
+  }
+  
+  .stopButton {
+      height: 50px;
+      margin: 10px;
+  }
+  
+  
+  img {
+    animation: shake3856 0.6s linear infinite both;
    }
    
    @keyframes shake3856 {
@@ -218,41 +273,23 @@ button {
      transform: translate(0);
     }
    }
-
-
-
-
-
-
-.pauseButton {
-    height: 50px;
-    margin: 10px;
-}
-
-.stopButton {
-    height: 50px;
-    margin: 10px;
-}
-
-
-img:hover {
-    /* Start the shake animation and make the animation last for 0.5 seconds */
-    animation: shake 0.8s;
-  
-    /* When the animation is finished, start again */
-    animation-iteration-count: infinite;
-  }
-  
-  @keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
-  }
+      /* Start the shake animation and make the animation last for 0.5 seconds
+      animation: shake 0.8s;
+    
+      /* When the animation is finished, start again */
+      /* animation-iteration-count: infinite;
+    }
+    
+    @keyframes shake {
+      0% { transform: translate(1px, 1px) rotate(0deg); }
+      10% { transform: translate(-1px, -2px) rotate(-1deg); }
+      20% { transform: translate(-3px, 0px) rotate(1deg); }
+      30% { transform: translate(3px, 2px) rotate(0deg); }
+      40% { transform: translate(1px, -1px) rotate(1deg); }
+      50% { transform: translate(-1px, 2px) rotate(-1deg); }
+      60% { transform: translate(-3px, 1px) rotate(0deg); }
+      70% { transform: translate(3px, 1px) rotate(-1deg); }
+      80% { transform: translate(-1px, -1px) rotate(1deg); }
+      90% { transform: translate(1px, 2px) rotate(0deg); }
+      100% { transform: translate(1px, -2px) rotate(-1deg); } */ 
+    
