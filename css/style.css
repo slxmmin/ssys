@@ -1,0 +1,362 @@
+
+/*HEADER*/
+
+/*NAV*/
+
+.icons {
+    height: 30px;
+    background-color: black;
+}
+
+.parent {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+    padding-right: 30px;
+}
+
+.nav-but-1 {
+    margin: 0px;
+    background-color: transparent;
+    text-decoration: none;
+    color: rgb(142, 143, 144);
+    font-family: 'Space Grotesk', sans-serif; 
+    /* font-family: 'Inter', sans-serif;  */
+    /* font-family: 'Titillium Web', sans-serif; */
+    font-size: 13px;
+    border: solid rgb(30, 30, 30);
+    border-radius: 0;
+    border-right-width: 0px;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    padding: 10px;
+}
+
+.nav-but-2 {
+    margin: 0px;
+    background-color: transparent;
+    text-decoration: none;
+    color: rgb(142, 143, 144);
+    font-family: 'Space Grotesk', sans-serif; 
+    /* font-family: 'Inter', sans-serif;  */
+    /* font-family: 'Titillium Web', sans-serif; */
+    font-size: 13px;
+    border: solid rgb(30, 30, 30);
+    border-radius: 0;
+    border-right-width: 0px;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    padding: 10px;
+}
+
+.nav-but-3 {
+    margin: 0px;
+    background-color: transparent;
+    text-decoration: none;
+    color: rgb(142, 143, 144);
+    font-family: 'Space Grotesk', sans-serif; 
+    /* font-family: 'Inter', sans-serif;  */
+    /* font-family: 'Titillium Web', sans-serif; */
+    font-size: 13px;
+    border: solid rgb(30, 30, 30);
+    border-radius: 0;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    padding: 10px;
+}
+
+.nav-but-1:hover {
+    background-color: rgb(29, 29, 29); 
+    color: white
+}
+
+.nav-but-2:hover {
+    background-color: rgb(29, 29, 29); 
+    color: white
+}
+
+.nav-but-3:hover {
+    background-color: rgb(29, 29, 29); 
+    color: white
+}
+
+/*MAIN*/
+/*TIMELINE*/
+
+.trackBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding-top: 20px;
+}
+
+.trackInfo {
+    font-family: 'Titillium Web', sans-serif;
+    padding-top: 20px;
+    font-size: 14px;
+    color:rgb(142, 143, 144);
+}
+
+.trackInfo:hover {
+    color:white;
+}
+
+.timeBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding-top: 5px;
+}
+
+.timeInfo {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    color: rgb(142, 143, 144);
+}
+
+/*TIMELINE*/
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 30px;
+}
+
+.audio-track {
+    width: 200px;
+    height: 5px;
+    background-color: white;
+    margin: 20px 0
+}
+
+.time {
+    width: 0;
+    height: 5px;
+    background-color: blue
+}
+
+/*AUDIOBUTTONS*/
+
+
+.audio-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: black;
+}
+
+.music-but-play {
+    margin: 0px;
+    background-color: transparent;
+    text-decoration: none;
+    color: rgb(142, 143, 144);
+    font-family: 'Space Grotesk', sans-serif; 
+    /* font-family: 'Inter', sans-serif;  */
+    /* font-family: 'Titillium Web', sans-serif; */
+    font-size: 14px;
+    border: solid rgb(30, 30, 30);
+    border-radius: 0;
+    border-right-width: 0px;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    padding: 5px;
+}
+
+.music-but-play:hover {
+    background-color: rgb(29, 29, 29); 
+    color: white;
+}
+
+.music-but-play:active {
+    background-color: rgb(147, 254, 137); 
+    color: black;
+}
+
+.music-but-pause {
+    margin: 0px;
+    background-color: transparent;
+    text-decoration: none;
+    color: rgb(142, 143, 144);
+    font-family: 'Space Grotesk', sans-serif; 
+    /* font-family: 'Inter', sans-serif;  */
+    /* font-family: 'Titillium Web', sans-serif; */
+    font-size: 14px;
+    border: solid rgb(30, 30, 30);
+    border-radius: 0;
+    border-right-width: 0px;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    padding: 5px;
+}
+
+.music-but-pause:hover {
+    background-color: rgb(29, 29, 29); 
+    color: white;
+}
+
+.music-but-pause:active {
+    background-color: rgb(250, 80, 80); 
+    color: black;
+}
+
+
+
+
+.parent-text {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+
+
+.main-text {
+    color:white;
+    font-family: 'Jomhuria', serif;
+    font-size: 90px;
+    text-decoration: none;
+}
+.main-text:hover {
+    color:blue;
+}
+
+.face {
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    padding: auto;
+}
+
+
+.ssys {
+    height: 250px;
+}
+
+.tea {
+    background-color: black;
+    text-align: right;
+    justify-content: right;
+}
+
+.tea2 {
+    height: 200px;
+}
+
+.tea2:hover {
+    animation: tilt-shaking 0.15s infinite;
+    }
+    @keyframes tilt-shaking {
+        0% { transform: rotate(0deg); }
+        25% { transform: rotate(5deg); }
+        50% { transform: rotate(0eg); }
+        75% { transform: rotate(-5deg); }
+        100% { transform: rotate(0deg); }
+    }
+
+    .modal-content 
+    {
+        background: transparent none !important;
+        border: none !important;
+       
+    }
+
+    #video {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #parent {
+        position:relative;
+        }
+
+    
+    .showcase header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        padding: 0 1rem;
+        box-sizing: border-box;
+        background-color: black;
+    }
+
+    .showcase {
+        background-color: black;
+    }
+          
+    .logo {
+        display: flex;   
+        justify-content: center; 
+    }
+          
+    .booknow { 
+        display: flex;   
+        justify-content: flex-end;
+        height: 10px;
+        background-color: black;
+    }
+
+    .new:hover {
+        animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+        transform: translate3d(0, 0, 0);
+        backface-visibility: hidden;
+        perspective: 1000px;
+      }
+      
+      @keyframes shake {
+        10%, 90% {
+          transform: translate3d(-1px, 0, 0);
+        }
+        
+        20%, 80% {
+          transform: translate3d(2px, 0, 0);
+        }
+      
+        30%, 50%, 70% {
+          transform: translate3d(-4px, 0, 0);
+        }
+      
+        40%, 60% {
+          transform: translate3d(4px, 0, 0);
+        }
+      }
+
+    .tea3:hover {
+        animation: tilt-shaking 0.15s infinite;
+        }
+        @keyframes tilt-shaking {
+            0% { transform: rotate(0deg); }
+            25% { transform: rotate(5deg); }
+            50% { transform: rotate(0eg); }
+            75% { transform: rotate(-5deg); }
+            100% { transform: rotate(0deg); }
+        }
+
+    .tea3 {
+        background-color: black;
+        margin-right: 30px;
+        margin-top: 50px;
+    }
+
+    .footer {
+        background-color: black;
+        height: 200px;
+    }
